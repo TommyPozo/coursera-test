@@ -1,23 +1,22 @@
 body{
-	font-size:16px;
+	font-size:10px;
 	color:#121D73;
 	background-color:#9BFF9A;
-	font-family:Verdana;
-	
-	
+	font-family:Avenir Next;
 }
-h1,p{
-	margin:15px;
+#brand-span{
+	font-size: 13px;
 }
+	
 #header-nav{
-	background-color:#2940EF;
+	background-color:#FFFFFF;
 	border-radius:0;
 	border:0;
 }
 
 #logo-img{
-	background: url('../images/samurai_1.jpg') no-repeat;
-	width:270px;
-	height:150px;
-	margin: 10px 15px 10px 0px;
+	background: url('../images/trebol5.png') no-repeat;
+	width:144px;
+	height:140px;
+	margin: 10px 0px 10px 10px;
 }
