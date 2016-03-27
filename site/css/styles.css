@@ -5,10 +5,10 @@ body{
 	font-family:Avenir Next;
 }
 #brand-span{
-	font-size: 13px;
+	font-size: 15px;
 }
 h1{
-	font-size:23px;
+	font-size:35px;
 }
 	
 #header-nav{
@@ -22,4 +22,29 @@ h1{
 	width:144px;
 	height:140px;
 	margin: 10px 0px 10px 10px;
+}
+#iso-cert{
+	background: url('../images/iso-9001-2015-certification-service.png') no-repeat;
+}
+/****Para dispositivos moviles****/
+@media (min-width: 360px) and (max-width: 680px)  {
+    h1{
+        font-size:16px;
+    }
+    #brand-span{
+	font-size: 10px;
+	}
+	#logo-img{
+	background: url('../images/trebol5-mobile.png') no-repeat;
+	width:93px;
+	height:90px;
+	margin: 10px 0px 10px 10px;
+	}
+
+	#iso-cert{
+	  background: url('../images/iso-9001-2015-certification-service-mobile.png') no-repeat;
+	  width:27px;
+	  height:25px;
+	  }
+
 }
